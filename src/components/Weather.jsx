@@ -31,7 +31,7 @@ const Weather = () => {
     
     return (<>
     
-        <div className=" p-28  flex justify-center " style={{backgroundImage:`url(${image})`,width:"100%",height:"100%",backgroundSize:"cover",backgroundRepeat:"no-repeat"}} >
+        <div className=" p-28  flex justify-center " style={{backgroundImage:`url(${image})`,width:"100%",height:"100%vh",backgroundSize:"cover",backgroundRepeat:"no-repeat"}} >
             <div className="bg-[#d4d2c7] p-10 flex flex-col gap-3 rounded-xl w-80 shadow-md shadow-black ">
                 <h1 className="font-medium text-3xl ">Weather</h1>
                 <p>I can give a weather report about your city !</p>
